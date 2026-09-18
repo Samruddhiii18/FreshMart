@@ -53,9 +53,14 @@ export async function POST(req:NextRequest) {
         return NextResponse.json({url:session.url}, {status:200})
 
     } catch (error) {
-        return NextResponse.json(
-            {message:`Order payment error ${error}`},
-            {status:500}
-        )
-    }
+    console.error("STRIPE PAYMENT ERROR:", error);
+
+    return NextResponse.json(
+        {
+            message: "Payment failed",
+            error: String(error)
+        },
+        { status: 500 }
+    );
+}
 }
