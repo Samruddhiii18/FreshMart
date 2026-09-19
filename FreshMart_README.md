@@ -6,9 +6,7 @@ The project also includes **Admin** and **Delivery Boy** functionality for manag
 
 ## 🌐 Live Project
 
-👉 **Live Demo:** [FreshMart – Live Project](YOUR_LIVE_PROJECT_LINK)
-
-> Replace `YOUR_LIVE_PROJECT_LINK` with your deployed FreshMart URL.
+👉 **Live Demo:** https://freshmart-brown.vercel.app/
 
 ---
 
